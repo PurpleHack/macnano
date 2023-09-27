@@ -23,16 +23,16 @@ mac mini 很久都没有更换过模具，内部空间利用率很低，体积�
 
 mac mini 主板使用 12V 供电。低于此电压无法开机，高于 12v 会烧主板。
 电线请使用 18AWG 铁氟龙高温线，与 mac mini 主板相连接的插座类型是 HC-PHD-2*10Y, 如图。
-![phd](/Assets/img/phd.jpeg)
+![phd](/Assets/img/phd.png)
 接线示意图
-![phd](/Assets/img/power.png)
+![power](/Assets/img/power.png)
 
 
 typec 供电版需要制板并焊接 PCB 电路，文件在 PCB 文件夹下，请用嘉立创 EDA 打开。 给 macnano 供电的设备（充电头，充电宝）需要支持 PD，QC 协议，还要有支持 12V 输出，不然无法开机。（不必考虑损坏主板，如果供电设备不支持 PD，QC 协议或无 12 V 输出，电路板会选择一个低压例如 9v或5v输出，所以不会烧坏主板）
 
-DC 版本需要购买5.5*2.1mm 母座，本项目用的是这种如图![phd](/Assets/img/dc.JPG)，注意 DC 版本使用的电源一定不能超过 12V，不能超过 12V，不能超过 12V，否则会烧坏主板。
+DC 版本需要购买5.5*2.1mm 母座，本项目用的是这种如图![phd](/Assets/img/dc.jpeg)，注意 DC 版本使用的电源一定不能超过 12V，不能超过 12V，不能超过 12V，否则会烧坏主板。
 
-磁吸版本使用 2pin 磁吸线作为插头,如图 ![phd](/Assets/img/magnet.JPG)。
+磁吸版本使用 2pin 磁吸线作为插头,如图 ![phd](/Assets/img/magnet.jpg)。
 
 ## 关于散热
 
